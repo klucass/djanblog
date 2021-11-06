@@ -1,0 +1,10 @@
+db.sqlite3
+geckodriver.log
+djbvenv
+__pycache__
+__init__.py
+settings.py
+asgi.py
+wsgi.py
+manage.py
+*.pyc
