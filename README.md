@@ -28,7 +28,7 @@ Djanblog usa PostgreSQL e pode ser deployado em plataformas de núvem como Herok
 - Se o ambiente admin já estiver configurado, é possivel ver os posts e tags para gerenciar
 
 ## Endpoints
-O djanblog serve conteúdos como uma API, mas somente para consultas.
+O djanblog serve conteúdos para consulta como uma API, em formato json.
 Os endpoints são:
 - blog/posts/all: retorna todos os posts
 - blog/post/{slug}: retorna o post identificado pelo slug (único)
