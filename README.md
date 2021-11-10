@@ -8,6 +8,8 @@ Funcionalidades
 
 Djanblog usa PostgreSQL e pode ser deployado em plataformas de núvem como Heroku ou Aws.
 
+Exemplo (API): https://kl-djanblog.herokuapp.com/blog/posts/all
+
 ## Instalação do Django e do app
 ### Instalar o Django
 - Instalar Python
