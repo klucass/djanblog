@@ -3,7 +3,7 @@ from .models import Post, Tag
 
 # Register your models here.
 class PostAdmin(admin.ModelAdmin):
-    prepopulated_fields = {"slug": ("title",)}
+    prepopulated_fields = {"slug": ("titulo",)}
 
 class TagAdmin(admin.ModelAdmin):
     pass
