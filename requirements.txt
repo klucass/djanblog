@@ -1,4 +1,4 @@
 django~=3.2.9
 django-tinymce
 Gunicorn
-pyscopg2
+psycopg2
