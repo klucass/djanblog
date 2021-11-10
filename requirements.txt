@@ -3,3 +3,4 @@ django-tinymce
 Gunicorn
 psycopg2
 whitenoise
+dj-database-url
