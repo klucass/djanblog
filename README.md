@@ -24,6 +24,7 @@ Djanblog usa PostgreSQL e pode ser deployado em plataformas de núvem como Herok
 ### Instalar o app
 - Salvar a pasta blog dentro da aplicação Django
 - Adicionar 'blog' em INSTALLED_APPS no arquivo settings
+- Adicionar `path('blog/', include('blog.urls'))` ao url_patterns no arquivo `urls.py` principal
 - Criar e rodar migrations: python manage makemigrations blog / python manage migrate 
 - Se o ambiente admin já estiver configurado, é possivel ver os posts e tags para gerenciar
 
