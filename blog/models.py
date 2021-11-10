@@ -11,7 +11,7 @@ class Tag(models.Model):
 
 class Post(models.Model):
     titulo      = models.CharField(max_length=200)
-    slug        = models.CharField(max_length=240, null=True, unique=True)
+    slug        = models.SlugField(max_length=240, null=True, unique=True)
     corpo       = HTMLField()
     rascunho    = models.BooleanField(default=True)
     tags        = models.ManyToManyField(Tag)
